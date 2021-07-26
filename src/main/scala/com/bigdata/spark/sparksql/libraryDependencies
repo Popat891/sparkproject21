@@ -1,0 +1,14 @@
+val ScalaV="2.11.12"
+val sc="2.4.8"
+// https://mvnrepository.com/artifact/org.apache.spark/spark-streaming
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % sc
+// https://mvnrepository.com/artifact/org.apache.spark/spark-core
+libraryDependencies += "org.apache.spark" %% "spark-core" % sc
+// https://mvnrepository.com/artifact/org.apache.spark/spark-sql
+libraryDependencies += "org.apache.spark" %% "spark-sql" % sc
+// https://mvnrepository.com/artifact/org.scala-lang/scala-compiler
+libraryDependencies += "org.scala-lang" % "scala-compiler" % ScalaV
+// https://mvnrepository.com/artifact/org.scala-lang/scala-library
+libraryDependencies += "org.scala-lang" % "scala-library" % ScalaV
+// https://mvnrepository.com/artifact/org.scala-lang/scala-reflect
+libraryDependencies += "org.scala-lang" % "scala-reflect" % ScalaV
